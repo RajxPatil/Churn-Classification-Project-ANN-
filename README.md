@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is designed to predict customer churn using a dataset of customer attributes. By leveraging machine learning models, the project provides predictions about whether a customer is likely to churn. It includes data preprocessing, feature engineering, and training an artificial neural network (ANN).
+This project is designed to predict customer churn using a dataset of customer attributes. By leveraging machine learning models, the project predicts whether a customer will likely churn. It includes data preprocessing, feature engineering, and training an artificial neural network (ANN).
 
 ## Features
 
@@ -25,6 +25,10 @@ This project is designed to predict customer churn using a dataset of customer a
 - **logs/**: Directory containing logs for training and debugging.
 
 ## Setup and Installation
+
+### Deployment Link:
+
+[Churn Classification App](https://rajxpatil-churn-classification-app.streamlit.app/)
 
 ### Clone the Repository:
 
@@ -61,20 +65,20 @@ The dataset contains the following key columns:
 - **Geography**: Country of residence (e.g., France, Germany, Spain).
 - **Gender**: Male or Female.
 - **Age**: Age of the customer.
-- **Balance**: Bank balance of the customer.
+- **Balance**: The customer's bank balance.
 - **Exited**: Target variable (1 = Churn, 0 = Not Churn).
 
 ## Model
 
 The project uses an Artificial Neural Network (ANN) built with the following architecture:
 
-- **Input layer**: Number of input neurons matches the number of features.
+- **Input layer**: The number of input neurons matches the number of features.
 - **Hidden layers**: Two dense layers with ReLU activation.
 - **Output layer**: Single neuron with sigmoid activation for binary classification.
 
 ## Results
 
-- **Accuracy**: 90.36 % 
+- **Accuracy**: 90.36 %
 
 ## Usage
 
@@ -82,7 +86,7 @@ To use the application:
 
 1. Run the `app.py` file using Streamlit.
 2. Enter the required customer details in the web interface.
-3. Click on the "Predict" button to see whether the customer is likely to churn.
+3. Click the "Predict" button to see whether the customer will likely churn.
 
 ## Contributing
 
